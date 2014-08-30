@@ -1,0 +1,140 @@
+# Demo
+
+---
+
+## Normal usage
+````html
+<script type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.7.2/jquery.min.js"></script>
+
+<div id="box"></div>
+````
+
+````javascript
+seajs.use('index', function(magnet) {
+	magnet.init({
+		"selector":"#box",
+		"hoverSelector":".qs-items .qs-img",
+		"descSelector":".qs-desc",
+		"map":{
+			"prefixCls":"qs",
+			"defaulturl":"./img/default.jpg",
+			"width":216,
+			"height":300,
+			"data":[
+				{
+						 "imgurl":"http://sandbox.runjs.cn/uploads/rs/246/t7vul5gq/label_3.jpg",
+						 "desc":"这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、",
+						 "title":"小白"
+					 },
+					 {
+						 "imgurl":"http://sandbox.runjs.cn/uploads/rs/246/t7vul5gq/label_3.jpg",
+						 "desc":"这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、",
+						 "title":"小白"
+					 },
+					 {
+						 "imgurl":"http://sandbox.runjs.cn/uploads/rs/246/t7vul5gq/label_3.jpg",
+						 "desc":"这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、",
+						 "title":"小白"
+					 },
+					 {
+						 "imgurl":"http://sandbox.runjs.cn/uploads/rs/246/t7vul5gq/label_3.jpg",
+						 "desc":"这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、",
+						 "title":"小白"
+					 },
+					 {
+						 "imgurl":"http://sandbox.runjs.cn/uploads/rs/246/t7vul5gq/label_3.jpg",
+						 "desc":"这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、",
+						 "title":"小白"
+					 },
+					 {
+						 "imgurl":"http://sandbox.runjs.cn/uploads/rs/246/t7vul5gq/label_3.jpg",
+						 "desc":"这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、",
+						 "title":"小白"
+					 },
+					 {
+						 "imgurl":"http://sandbox.runjs.cn/uploads/rs/246/t7vul5gq/label_3.jpg",
+						 "desc":"这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、",
+						 "title":"小白"
+					 },
+					 {
+						 "imgurl":"http://sandbox.runjs.cn/uploads/rs/246/t7vul5gq/label_3.jpg",
+						 "desc":"这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、",
+						 "title":"小白"
+					 },
+					 {
+						 "imgurl":"http://sandbox.runjs.cn/uploads/rs/246/t7vul5gq/label_3.jpg",
+						 "desc":"这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、",
+						 "title":"小白"
+					 },
+					 {
+						 "imgurl":"http://sandbox.runjs.cn/uploads/rs/246/t7vul5gq/label_3.jpg",
+						 "desc":"这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、",
+						 "title":"小白"
+					 },
+					 {
+						 "imgurl":"http://sandbox.runjs.cn/uploads/rs/246/t7vul5gq/label_3.jpg",
+						 "desc":"这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、",
+						 "title":"小白"
+					 },
+					 {
+						 "imgurl":"http://sandbox.runjs.cn/uploads/rs/246/t7vul5gq/label_3.jpg",
+						 "desc":"这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、",
+						 "title":"小白"
+					 },
+					 {
+						 "imgurl":"http://sandbox.runjs.cn/uploads/rs/246/t7vul5gq/label_3.jpg",
+						 "desc":"这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、",
+						 "title":"小白"
+					 },
+					 {
+						 "imgurl":"http://sandbox.runjs.cn/uploads/rs/246/t7vul5gq/label_3.jpg",
+						 "desc":"这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、",
+						 "title":"小白"
+					 },
+					 {
+						 "imgurl":"http://sandbox.runjs.cn/uploads/rs/246/t7vul5gq/label_3.jpg",
+						 "desc":"这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、",
+						 "title":"小白"
+					 },
+					 {
+						 "imgurl":"http://sandbox.runjs.cn/uploads/rs/246/t7vul5gq/label_3.jpg",
+						 "desc":"这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、",
+						 "title":"小白"
+					 },
+					 {
+						 "imgurl":"http://sandbox.runjs.cn/uploads/rs/246/t7vul5gq/label_3.jpg",
+						 "desc":"这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、",
+						 "title":"小白"
+					 },
+					 {
+						 "imgurl":"http://sandbox.runjs.cn/uploads/rs/246/t7vul5gq/label_3.jpg",
+						 "desc":"这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、",
+						 "title":"小白"
+					 },
+					 {
+						 "imgurl":"http://sandbox.runjs.cn/uploads/rs/246/t7vul5gq/label_3.jpg",
+						 "desc":"这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、",
+						 "title":"小白"
+					 },
+					 {
+						 "imgurl":"http://sandbox.runjs.cn/uploads/rs/246/t7vul5gq/label_3.jpg",
+						 "desc":"这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、",
+						 "title":"小白"
+					 },
+					 {
+						 "imgurl":"http://sandbox.runjs.cn/uploads/rs/246/t7vul5gq/label_3.jpg",
+						 "desc":"这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、这货是斑、",
+						 "title":"小白"
+					 }
+			]
+		},
+		"callback":function(){
+			console.log('init done!');
+		}
+	});
+});
+````
+
+````
+
+````

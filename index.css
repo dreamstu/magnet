@@ -1,0 +1,33 @@
+*{
+	margin:0px;
+	padding:0px;
+	font:12px/2 微软雅黑;
+}
+
+.qs-items{
+	/*width:216px;*/
+	border:1px solid #dcdcdc;
+	overflow:hidden;
+	float:left;
+	margin:15px 15px 0 0;
+	background-color:#fff;
+}
+.qs-items .qs-img{
+	/*height:300px;*/
+	overflow:hidden;
+	position:relative;
+}
+.qs-items .qs-desc{
+	height:100%;
+	width:100%;
+	padding:15px;
+	position:absolute;
+	/*top:-300px;*/
+	left:0px;
+	color:#fff;
+	background-image:url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAFoEvQfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA1JREFUeNpjYmBgOAMAANsAzxM4pZ4AAAAASUVORK5CYII=);
+}
+.qs-items .qs-title{
+	border-top:1px solid #dcdcdc;
+	padding:7px 14px;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "magnet",
+  "version": "1.0.0",
+  "description": "类似词贴的遮罩，有方向性的遮罩效果",
+  "keywords": [
+    "magnet"
+  ],
+  "homepage": "",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dreamstu/magnet.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "index.css",
+      "box.tpl"
+    ],
+    "main": "index.js",
+    "dependencies": {
+      "template":"1.0.0",
+      "import-style": "1.0.0"
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    }
+  }
+}
